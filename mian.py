@@ -6,7 +6,6 @@
 import sys
 from flask import Flask, render_template
 from flask_frozen import Freezer
-# 实际对应的包为Frozen_Flask
 
 app = Flask(__name__)
 freezer = Freezer(app)
