@@ -11,8 +11,8 @@ app = Flask(__name__)
 freezer = Freezer(app)
 
 
-@app.route('algorithm_note1')
-def note_index():
+@app.route('/')
+def algorithm_note1():
     return render_template('algorithm_note1.html')
 
 
